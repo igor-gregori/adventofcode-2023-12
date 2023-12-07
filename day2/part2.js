@@ -53,9 +53,8 @@ function readLines(filePath) {
     let sumOfMultiplicationOfMinimum = 0
     for (const minimumGame of minimumGames) sumOfMultiplicationOfMinimum += minimumGame[2]
 
-    console.log("🎲 minimumGames: ", minimumGames)
-    console.log("🔑 sumOfMultiplicationOfMinimum: ", sumOfMultiplicationOfMinimum)
-    console.log('✅ File reading completed.')
+    console.log("minimumGames: ", minimumGames)
+    console.log("sumOfMultiplicationOfMinimum: ", sumOfMultiplicationOfMinimum)
 }
 
 readLines(filePath)

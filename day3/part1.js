@@ -118,7 +118,7 @@ function readLines(filePath) {
     let sum = 0
     for (const strNumber of adjacentNumbers) sum += Number(strNumber)
 
-    console.log("🔵 sum:", sum)
+    console.log("sum:", sum)
 }
 
 readLines(filePath)

@@ -53,9 +53,8 @@ function readLines(filePath) {
     if (isPossibleGame) possibleGames.push(numberOfGame)
   }
 
-  console.log("🎲 possibleGames: ", possibleGames)
-  console.log("🔑 sum of possibleGames: ", possibleGames.reduce((acumulador, numero) => { return acumulador + numero; }, 0))
-  console.log('✅ File reading completed.')
+  console.log("possibleGames: ", possibleGames)
+  console.log("sum of possibleGames: ", possibleGames.reduce((acumulador, numero) => { return acumulador + numero; }, 0))
 }
 
 readLines(filePath)
