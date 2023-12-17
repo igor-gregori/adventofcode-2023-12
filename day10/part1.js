@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { pipeConditions } = require('./pipe_conditions');
 
-const filePath = './inputs/input5.txt';
+const filePath = './inputs/input_final.txt';
 
 const pipeMaze = [];
 
