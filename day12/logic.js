@@ -79,6 +79,20 @@ function calculateNumberOfPossibleArrangements(record, groups) {
   return numberOfPossibleArrangements;
 }
 
+function unfoldRecords(record, groups) {
+  const unfoldRecord = [];
+  const unfoldGroups = [];
+  for (let i = 0; i < 5; i++) {
+    unfoldRecord.push(record);
+    unfoldGroups.push(...groups);
+  }
+  return {
+    unfoldRecord: unfoldRecord.join('?'),
+    unfoldGroups,
+  };
+}
+
 module.exports = {
   calculateNumberOfPossibleArrangements,
+  unfoldRecords,
 };
